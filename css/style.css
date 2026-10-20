@@ -1,0 +1,88 @@
+* {
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 20px;
+    background-color: rgb(202, 233, 244);
+}
+header {
+    background-color: rgb(69, 69, 235);
+    padding: 20px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: rgb(69, 69, 235);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+    color:white;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:12px;
+    max-width: 420px;
+}
+
+input, select,textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+}
+
+input:focus, select:focus, textarea:focus {
+    outline:2px solid #000;
+}
+
+button {
+    background-color: rgb(235, 31, 31);
+    color:white;
+    border:0;
+    border-radius: 3px;
+    padding: 12px;
+}
+
+#forms {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.m {
+    color:rgb(29, 29, 74);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    color:rgb(33, 33, 82);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.opcao {
+    display: flex;
+    gap:10px;
+    width: 20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+h2 {
+    font-size: 25px;
+}
